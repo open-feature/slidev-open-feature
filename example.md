@@ -279,6 +279,27 @@ The `photo` prop accepts both remote URLs and local files from the `public/` dir
 </div>
 
 ---
+
+# Components: <span class="text-accent">QRCode</span>
+
+The `QRCode` component generates a QR code from any URL. Rendered client-side with no network dependency.
+
+<div class="grid grid-cols-3 gap-8 mt-8 text-center">
+  <div>
+    <p class="text-muted text-xs mb-2">Default (200px)</p>
+    <QRCode url="https://openfeature.dev" />
+  </div>
+  <div>
+    <p class="text-muted text-xs mb-2">Custom size (150px)</p>
+    <QRCode url="https://github.com/open-feature" size="150px" />
+  </div>
+  <div>
+    <p class="text-muted text-xs mb-2">Custom color</p>
+    <QRCode url="https://openfeature.dev" size="150px" color="#7b7bff" />
+  </div>
+</div>
+
+---
 layout: end
 ---
 

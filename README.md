@@ -74,6 +74,21 @@ The `photo` prop accepts both remote URLs and local files placed in the `public/
 <PresenterProfile name="Jane Doe" company="CNCF" photo="/images/jane.jpg" />
 ```
 
+### `<QRCode>`
+
+Generates and displays a QR code from a URL. Rendered client-side with no network dependency.
+
+| Prop      | Type     | Default         | Description                          |
+|-----------|----------|-----------------|--------------------------------------|
+| `url`     | `string` | —               | **Required.** The URL to encode.     |
+| `size`    | `string` | `'200px'`       | Width and height of the QR code.     |
+| `color`   | `string` | `'#000000'`     | Foreground color of the QR code.     |
+| `bgColor` | `string` | `'#ffffff'`     | Background color of the QR code.     |
+
+```md
+<QRCode url="https://openfeature.dev" size="200px" />
+```
+
 ## Contributing
 
 - `npm install`
