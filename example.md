@@ -223,6 +223,62 @@ const value = await client.getBooleanValue('my-flag', false)
 </div>
 
 ---
+layout: section
+---
+
+# Component Showcase
+
+Reusable components provided by this theme
+
+---
+
+# Components: <span class="text-accent">OpenFeatureLogo</span>
+
+The `OpenFeatureLogo` component renders the official wordmark with automatic light/dark mode support.
+
+<div class="flex flex-col gap-6 mt-8">
+  <div class="flex items-center gap-4">
+    <code>size="150px"</code>
+    <OpenFeatureLogo size="150px" />
+  </div>
+  <div class="flex items-center gap-4">
+    <code>size="250px"</code>
+    <OpenFeatureLogo size="250px" />
+  </div>
+  <div class="flex items-center gap-4">
+    <code>size="350px"</code>
+    <OpenFeatureLogo size="350px" />
+  </div>
+</div>
+
+---
+
+# Components: <span class="text-accent">PresenterProfile</span>
+
+The `PresenterProfile` component displays a speaker's photo, name, and company.
+
+The `photo` prop accepts both remote URLs and local files from the `public/` directory (e.g. `/images/jane.jpg`).
+
+<div class="grid grid-cols-4 gap-6 mt-8 text-center">
+  <div>
+    <p class="text-muted text-xs mb-2">With photo</p>
+    <PresenterProfile name="Jane Doe" company="CNCF" photo="https://i.pravatar.cc/150?img=47" size="80px" />
+  </div>
+  <div>
+    <p class="text-muted text-xs mb-2">Initials fallback</p>
+    <PresenterProfile name="John Smith" company="Acme Corp" size="80px" />
+  </div>
+  <div>
+    <p class="text-muted text-xs mb-2">Without company</p>
+    <PresenterProfile name="Alex Rivera" photo="https://i.pravatar.cc/150?img=12" size="80px" />
+  </div>
+  <div>
+    <p class="text-muted text-xs mb-2">Larger size</p>
+    <PresenterProfile name="Maria Chen" company="OpenFeature" photo="https://i.pravatar.cc/150?img=32" size="96px" />
+  </div>
+</div>
+
+---
 layout: end
 ---
 
