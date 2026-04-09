@@ -23,8 +23,8 @@ This theme provides the following layouts:
 | `cover` | Title slide with centered content and prominent wave background |
 | `default` | Standard content slide with a title bar and body area |
 | `end` | Closing slide with centered content and prominent wave background |
-| `image-left` | Two-column layout with an image on the left (`image` prop required) |
-| `image-right` | Two-column layout with an image on the right (`image` prop required) |
+| `image-left` | Two-column layout with an image on the left (e.g., `image: path/to/image.jpg`) |
+| `image-right` | Two-column layout with an image on the right (e.g., `image: path/to/image.jpg`) |
 | `intro` | Introduction / about slide with centered content |
 | `section` | Section divider with large centered heading |
 | `two-cols` | Two-column layout using default and `::right::` slots |
