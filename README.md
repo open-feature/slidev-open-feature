@@ -8,9 +8,11 @@ An [OpenFeature](https://openfeature.dev)-branded theme for [Slidev](https://git
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-<pre><code>---
-theme: <b>@openfeature/slidev-theme-open-feature</b>
----</code></pre>
+```md
+---
+theme: '@openfeature/slidev-theme-open-feature'
+---
+```
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
 
