@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/open-feature/slidev-open-feature/compare/v1.0.0...v1.0.1) (2026-04-10)
+
+
+### 🐛 Bug Fixes
+
+* publishing ([034a06c](https://github.com/open-feature/slidev-open-feature/commit/034a06c9e70c05891b728ad9602dcbba3b7a7581))
+
 ## 1.0.0 (2026-04-10)
 
 
