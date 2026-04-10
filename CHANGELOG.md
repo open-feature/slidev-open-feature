@@ -1,0 +1,13 @@
+# Changelog
+
+## 1.0.0 (2026-04-10)
+
+
+### ✨ New Features
+
+* Add initial template for sli.dev and deployment ([#1](https://github.com/open-feature/slidev-open-feature/issues/1)) ([b9e76d1](https://github.com/open-feature/slidev-open-feature/commit/b9e76d1f6c445fe2d24981bb6305337d59e0a692))
+
+
+### 📚 Documentation
+
+* Update README and package scope ([#6](https://github.com/open-feature/slidev-open-feature/issues/6)) ([3633a56](https://github.com/open-feature/slidev-open-feature/commit/3633a567f1e826f609797b6dbe6098475e9d95c3))
