@@ -1,13 +1,26 @@
 {
-    "name": "slidev-theme-open-feature",
-    "version": "0.0.0",
+    "name": "@openfeature/slidev-theme-open-feature",
+    "version": "1.0.4",
     "type": "module",
     "keywords": [
         "slidev-theme",
         "slidev"
     ],
+    "author": "openfeature",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/open-feature/slidev-open-feature/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/open-feature/slidev-open-feature.git"
+    },
     "engines": {
         "node": ">=18.0.0"
+    },
+    "publishConfig": {
+        "access": "public",
+        "provenance": true
     },
     "scripts": {
         "build": "slidev build example.md",

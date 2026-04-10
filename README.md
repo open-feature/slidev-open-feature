@@ -1,31 +1,18 @@
-# slidev-theme-open-feature
+# OpenFeature Slidev Theme
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-open-feature?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-open-feature)
+[![NPM version](https://img.shields.io/npm/v/@openfeature/slidev-theme-open-feature?color=3AB9D4&label=)](https://www.npmjs.com/package/@openfeature/slidev-theme-open-feature)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
-
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/guide/write-theme.html
---->
-
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+An [OpenFeature](https://openfeature.dev)-branded theme for [Slidev](https://github.com/slidevjs/slidev). It features the official OpenFeature color palette, wave-style background decorations, and Poppins / Architects Daughter typography — with full support for light and dark mode.
 
 ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
-<pre><code>---
-theme: <b>open-feature</b>
----</code></pre>
+```md
+---
+theme: '@openfeature/slidev-theme-open-feature'
+---
+```
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
 
@@ -33,7 +20,16 @@ Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-them
 
 This theme provides the following layouts:
 
-> TODO:
+| Layout | Description |
+|--------|-------------|
+| `cover` | Title slide with centered content and prominent wave background |
+| `default` | Standard content slide with a title bar and body area |
+| `end` | Closing slide with centered content and prominent wave background |
+| `image-left` | Two-column layout with an image on the left (e.g., `image: path/to/image.jpg`) |
+| `image-right` | Two-column layout with an image on the right (e.g., `image: path/to/image.jpg`) |
+| `intro` | Introduction / about slide with centered content |
+| `section` | Section divider with large centered heading |
+| `two-cols` | Two-column layout using default and `::right::` slots |
 
 ## Components
 
@@ -96,3 +92,5 @@ Generates and displays a QR code from a URL. Rendered client-side with no networ
 - Edit the `example.md` and style to see the changes
 - `npm run export` to generate the preview PDF
 - `npm run screenshot` to generate the preview PNG
+
+> **Note:** Node.js >= 18 is required. The repo includes an `.nvmrc` (Node 22) — run `nvm use` to pick it up.
