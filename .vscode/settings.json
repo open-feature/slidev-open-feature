@@ -3,5 +3,9 @@
     "slidev.include": [
         "**/slides.md",
         "example.md"
-    ]
+    ],
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+    }
 }
