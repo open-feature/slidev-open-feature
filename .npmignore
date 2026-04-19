@@ -1,3 +1,6 @@
-.agents/
-.github/skills/
-skills-lock.json
+.github/
+example.md
+netlify.toml
+renovate.json
+release-please-config.json
+.release-please-manifest.json
