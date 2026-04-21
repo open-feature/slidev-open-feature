@@ -35,7 +35,55 @@ This theme provides the following layouts:
 
 This theme provides the following components:
 
-> TODO:
+### `<OpenFeatureLogo>`
+
+Renders the official OpenFeature horizontal wordmark logo with automatic light/dark mode support.
+
+| Prop   | Type     | Default   | Description        |
+|--------|----------|-----------|--------------------|
+| `size` | `string` | `'200px'` | Width of the logo. |
+
+```md
+<OpenFeatureLogo size="250px" />
+```
+
+### `<PresenterProfile>`
+
+Displays a presenter's photo (or initials fallback), name, and company.
+
+| Prop      | Type     | Default  | Description                                          |
+|-----------|----------|----------|------------------------------------------------------|
+| `name`    | `string` | —        | **Required.** Presenter's full name.                 |
+| `company` | `string` | —        | Company or organization name.                        |
+| `photo`   | `string` | —        | URL or path to the presenter's photo.                |
+| `size`    | `string` | `'80px'` | Diameter of the avatar circle.                       |
+
+When `photo` is omitted, the avatar displays the presenter's initials on an accent-colored background.
+
+The `photo` prop accepts both remote URLs and local files placed in the `public/` directory:
+
+```md
+<!-- Remote URL -->
+<PresenterProfile name="Jane Doe" company="CNCF" photo="https://example.com/jane.jpg" />
+
+<!-- Local file from public/ -->
+<PresenterProfile name="Jane Doe" company="CNCF" photo="/images/jane.jpg" />
+```
+
+### `<QRCode>`
+
+Generates and displays a QR code from a URL. Rendered client-side with no network dependency.
+
+| Prop      | Type     | Default         | Description                          |
+|-----------|----------|-----------------|--------------------------------------|
+| `url`     | `string` | —               | **Required.** The URL to encode.     |
+| `size`    | `string` | `'200px'`       | Width and height of the QR code.     |
+| `color`   | `string` | `'#000000'`     | Foreground color of the QR code.     |
+| `bgColor` | `string` | `'#ffffff'`     | Background color of the QR code.     |
+
+```md
+<QRCode url="https://openfeature.dev" size="200px" />
+```
 
 ## Contributing
 

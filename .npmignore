@@ -1,0 +1,6 @@
+.github/
+example.md
+netlify.toml
+renovate.json
+release-please-config.json
+.release-please-manifest.json
