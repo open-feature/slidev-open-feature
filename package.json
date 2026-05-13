@@ -33,7 +33,7 @@
         "uqr": "^0.1.3"
     },
     "devDependencies": {
-        "@slidev/cli": "52.15.1"
+        "@slidev/cli": "52.15.2"
     },
     "overrides": {
         "dompurify": "^3.4.2",
